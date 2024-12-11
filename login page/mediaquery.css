@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px){
+    body{
+        overflow: hidden;
+    }
+    .page{
+        height: 85vh;
+        width: 80vw;
+        margin-top: 50px;
+        margin: auto;
+    }
+}

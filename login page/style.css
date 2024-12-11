@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./realistic-style-technology-particle-background_23-2148426704.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+.page {
+    height: 80vh;
+    width: 40vw;
+    margin: 50px 0px 0px 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid blueviolet;
+    border-color: blueviolet;
+
+}
+
+.page:hover {
+    box-shadow:
+        0 0 10px 5px blueviolet,
+        /* Bahar ka shining effect */
+        inset 0 0 10px 5px blueviolet;
+    /* Andar ka shining effect */
+    transition: all 0.5s;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+span {
+    color: blueviolet;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border-color: blueviolet;
+}
+
+.button:hover {
+    box-shadow:
+        0 0 10px 5px blueviolet,
+        /* Bahar ka shining effect */
+        inset 0 0 10px 5px blueviolet;
+    /* Andar ka shining effect */
+    transition: all 0.5s;
+
+}
+
+.inp {
+    padding: 10px 100px;
+    cursor: pointer;
+    font-size: 15px;
+    background: none;
+    margin-top: 5px;
+    border-color: blueviolet;
+    color: white;
+}
+
+.inp:hover {
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 10px blueviolet;
+    /* Glowing effect on hover */
+}
+
+
+.pass {
+    margin-right: 30px;
+}
+
